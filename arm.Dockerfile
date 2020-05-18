@@ -1,3 +1,4 @@
+# For Postgres only...removed sqlite, mysql, and mariadb from original
 FROM alpine:3.11
 
 RUN [ “cross-build-start” ]
